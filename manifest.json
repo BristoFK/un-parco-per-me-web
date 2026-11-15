@@ -1,0 +1,65 @@
+{
+  "id": "./",
+  "name": "Un Parco per Me",
+  "short_name": "Un Parco per Me",
+  "description": "Guida collaborativa ai parchi giochi inclusivi e ai luoghi accessibili per famiglie e bambini con disabilità.",
+  "lang": "it-IT",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#F5EDDD",
+  "theme_color": "#F5EDDD",
+  "categories": ["navigation", "lifestyle", "kids"],
+  "icons": [
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mappa",
+      "short_name": "Mappa",
+      "description": "Apri la mappa dei luoghi accessibili",
+      "url": "./",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Esplora",
+      "short_name": "Esplora",
+      "description": "Cerca parchi inclusivi e locali",
+      "url": "./explore",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Salvati",
+      "short_name": "Salvati",
+      "description": "Consulta i preferiti offline",
+      "url": "./saved",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
